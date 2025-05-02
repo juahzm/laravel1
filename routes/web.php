@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PorfolioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/home', [PorfolioController::class, 'index']);
+Route::get('/resume', [PorfolioController::class, 'resume']);
+Route::get('/projects', [PorfolioController::class, 'projects']);
+
+Route::get('/contact', [PorfolioController::class, 'contact']);
+Route::post('/contact', [PorfolioController::class, 'contactForm']);
