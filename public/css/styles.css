@@ -650,6 +650,8 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
+  padding-right: 20px;
 }
 
 .img-thumbnail {
@@ -9198,7 +9200,7 @@ fieldset:disabled .btn {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #1e70ff;
 }
 
 .text-success {
@@ -13578,11 +13580,11 @@ html {
   position: absolute;
   width: 3vw;
   right: 1.5vw;
-  top: 4vw;
+  top: -4vw;
 }
 
 .profile .dots-1 svg {
-  fill: #fff;
+  fill: #1e70ff;
 }
 
 .profile .dots-2 {
@@ -13593,18 +13595,18 @@ html {
 }
 
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: #1e70ff;
 }
 
 .profile .dots-3 {
   position: absolute;
   width: 3vw;
-  left: 1.5vw;
-  bottom: 6.05vw;
+  left: 2.5vw;
+  bottom: -6.05vw;
 }
 
 .profile .dots-3 svg {
-  fill: #fff;
+  fill: #40e0d0;
 }
 
 .profile .dots-4 {
@@ -13615,7 +13617,7 @@ html {
 }
 
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: #40e0d0;
 }
 
 @media (min-width: 576px) {

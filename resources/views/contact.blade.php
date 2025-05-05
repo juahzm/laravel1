@@ -10,8 +10,8 @@
             <div class="text-center mb-5">
                 <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i
                         class="bi bi-envelope"></i></div>
-                <h1 class="fw-bolder">Get in touch</h1>
-                <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
+                <h1 class="fw-bolder">Écrivez-nous</h1>
+                <p class="lead fw-normal text-muted mb-0">Construisons quelque chose ensemble !</p>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
@@ -44,36 +44,34 @@
                         <div class="form-floating mb-3">
                             <input name="name" class="form-control" id="name" type="text" placeholder="Enter your name..."
                                 data-sb-validations="required" />
-                            <label for="name">Full name</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
+                            <label for="name">Nom</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Le nom est requis.
                             </div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input name="email" class="form-control" id="email" type="email" placeholder="name@example.com"
                                 data-sb-validations="required,email" />
-                            <label for="email">Email address</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is
-                                required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.
+                            <label for="email">Adresse courriel</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">L'e-mail est requis
+                            </div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">L'e-mail n'est pas valide.
                             </div>
                         </div>
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
                             <input name="phone" class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
                                 data-sb-validations="required" />
-                            <label for="phone">Phone number</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is
-                                required.</div>
+                            <label for="phone">Numéro de téléphone</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Le Numéro de téléphone est requis.</div>
                         </div>
                         <!-- Message input-->
                         <div class="form-floating mb-3">
                             <textarea class="form-control" id="message" name="text2" type="text"
                                 placeholder="Enter your message here..." style="height: 10rem"
                                 data-sb-validations="required"></textarea>
-                            <label for="message">Message</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is
-                                required.</div>
+                            <label for="message">Votre Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Le message est requis.</div>
                         </div>
                         <!-- Submit success message-->
                         <!---->
@@ -97,7 +95,7 @@
                         </div>
                         <!-- Submit Button-->
                         <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton"
-                                type="submit">Submit</button></div>
+                                type="submit">Soumetre</button></div>
                     </form>
                     @endisset
                 </div>
